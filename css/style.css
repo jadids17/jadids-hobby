@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    height: 150vh;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    padding: 20px;
+    align-items: flex-start;
+    display: flex;
+    gap: 1rem 2rem;
+    background-color: #4A3F35;
+  }
+
+  div#content article {
+    flex: 5;
+  }
+  .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #2F2519;
+    text-align: center;
+    color: white;
+  }
+
+  header.navbar-container .jumbotron blockquote {
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  
+  header.navbar-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+  }
+
+  header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: black;
+    padding: .5rem 1.5rem;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+  }
+
+  header.navbar-container .nav-list li:hover a {
+    background-color: #434242;
+    color: white;
+  }
+
+  header {
+    display: inline;
+  }
+
+  header div img {
+    width: 400px;
+    max-height: 600px;
+   
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card {
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FA7D09;
+  }
+
+  main article.card img {
+    width: 400px;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  main aside {
+    padding: 20px;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    background-color: #FF4301;
+  }
+
+  aside figure img {
+    width: 230px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  main aside.profile {
+    align-self: center;
+  }
+
+  footer {
+    padding: 20px;
+    align-self: center;
+  }
